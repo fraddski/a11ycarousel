@@ -1,6 +1,6 @@
 /**
-* a11y carousel v1.0
-* http://github.com/crochetedcoder/a11ycarousel
+* jQuery a11y-carousel v1.0
+* http://github.com/skyebianca/a11y-carousel
 * Licensed under MIT
 */
 (function($) {    
@@ -20,7 +20,8 @@
 			autoPlay: true,
 			playInterval: 9000,
 			slideSpeed: 1000,
-			easing: 'ease'
+			easing: 'ease',
+			additionalControlHeight: 0
 		}, options);
 		
 		var animate = function(itemIndex) {
@@ -89,7 +90,7 @@
 		carouselContainer = this;
 		itemList = $(carouselContainer).find('ul')[0];
 		itemCount = $(itemList).find('li').length;
-        $(carouselContainer).width(settings.width).height(settings.height).css({ overflow: 'hidden', position: 'relative' }).addClass('carousel-container');
+        $(carouselContainer).width(settings.width).height(settings.height + settings.additionalControlHeight).css({ overflow: 'hidden', position: 'relative' }).addClass('carousel-container');
         $(itemList).width(itemCount * settings.width).height(settings.height).css({ overflow: 'hidden', position: 'absolute', top: 0, left: 0, margin: 0, padding: 0, 'list-style-type': 'none' });
 		$(itemList).find('li').each(function() {
 			$(this).width(settings.width).height(settings.height).css({ overflow: 'hidden', float: 'left', position: 'relative', margin: 0, padding: 0, 'list-style-type': 'none' });
