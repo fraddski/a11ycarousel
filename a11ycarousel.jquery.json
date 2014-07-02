@@ -24,7 +24,7 @@
             "url": "https://github.com/fraddski/a11ycarousel/LICENSE.txt"
         }
     ],
-    "homepage": "https://github.com/fraddski/a11ycarousel",
+    "homepage": "http://skyefradd.me/plugins/a11ycarousel",
     "docs": "http://skyefradd.me/plugins/a11ycarousel",
     "dependencies": {
         "jquery": ">=1.5"
