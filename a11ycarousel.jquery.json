@@ -1,0 +1,32 @@
+{
+    "name": "a11ycarousel",
+    "title": "a11y carousel",
+    "description": "A simple carousel with a focus on clean, accessible markup.",
+    "keywords": [
+        "carousel",
+				"slider",
+        "accessibility"
+    ],
+    "version": "1.1",
+    "author": {
+        "name": "Skye Fradd",
+        "url": "http://skyefradd.me"
+    },
+    "maintainers": [
+        {
+            "name": "Skye Fradd",
+            "url": "http://skyefradd.me"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "homepage": "https://github.com/fraddski/a11ycarousel",
+    "docs": "http://skyefradd.me/plugins/a11ycarousel",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
