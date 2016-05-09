@@ -7,7 +7,7 @@
 				"slider",
         "accessibility"
     ],
-    "version": "1.1.1",
+    "version": "1.2",
     "author": {
         "name": "Skye Fradd",
         "url": "http://skyefradd.me"
@@ -24,8 +24,8 @@
             "url": "https://github.com/fraddski/a11ycarousel/LICENSE.txt"
         }
     ],
-    "homepage": "http://skyefradd.me/plugins/a11ycarousel",
-    "docs": "http://skyefradd.me/plugins/a11ycarousel",
+    "homepage": "http://skyefradd.me/a11ycarousel",
+    "docs": "http://skyefradd.me/a11ycarousel",
     "dependencies": {
         "jquery": ">=1.5"
     }

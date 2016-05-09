@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	height: 100%;
 }
 .carousel-container .controls {
 	z-index: 1000;
@@ -9,7 +10,7 @@
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	height: 30px;
+	height: 50px;
 	background-color: #333;
 	background-color: rgba(0, 0, 0, 0.85);
 	color: #fff;
@@ -27,7 +28,7 @@
 		background-color: transparent;
 		color: #fff;
 		font-size: 16px;
-		height: 30px;
+		height: 50px;
 		cursor: pointer;
 		padding: 0;
 		margin: 0 0 0 10px;
@@ -37,29 +38,29 @@
 		color: #bbb;
 	}
 	.carousel-container .controls ul {
-		margin: 9px auto 0;
+		margin: 0 auto;
 		padding: 0;
 	}
 		.carousel-container .controls ul li {
 			float: left;
-			width: 20px;
+			padding: 17px 4px;
 		}
 			.carousel-container .controls ul li button {
-				float: left;
 				border: none;
-				height: 12px;
-				width: 12px;
-				background-color: #777;
-				background-color: rgba(255, 255, 255, 0.3);
-				border-radius: 20px;
+				height: 16px;
+				width: 16px;
 				margin: 0;
 				padding: 0;
+				background-color: #777;
+				background-color: rgba(255, 255, 255, 0.3);
+				border-radius: 50%;
 				cursor: pointer;
 				text-indent: -9999px;
 				text-transform: capitalize;
+				float: left;
 			}
-			.carousel-container .controls ul li button:hover, 
-			.carousel-container .controls ul li button:focus, 
+			.carousel-container .controls ul li button:hover,
+			.carousel-container .controls ul li button:focus,
 			.carousel-container .controls ul li button:active {
 				background-color: #bbb;
 				background-color: rgba(255, 255, 255, 0.6);
